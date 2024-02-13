@@ -121,7 +121,7 @@
 	];
 </script>
 
-<div class="grid grid-cols-2 gap-4 mt-4">
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-4 mt-4">
 	{#each projects as project}
 		<a href={project.url}>
 			<Card.Root>
