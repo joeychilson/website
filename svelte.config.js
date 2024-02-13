@@ -7,10 +7,7 @@ const config = {
 	extensions: ['.svelte', '.md'],
 	preprocess: [vitePreprocess(), mdsvex({ extensions: ['.md'] })],
 	kit: {
-		adapter: adapter(),
-		alias: {
-			'@/*': './path/to/lib/*'
-		}
+		adapter: adapter()
 	}
 };
 

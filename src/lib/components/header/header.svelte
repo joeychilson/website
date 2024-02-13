@@ -5,7 +5,7 @@
 
 <div class="flex h-16 items-center justify-between">
 	<div class="flex items-center">
-		<a href="/" class="text-2xl font-semibold bg-background">Joey Chilson</a>
+		<a href="/" class="text-2xl font-semibold">Joey Chilson</a>
 	</div>
     <div class="relative inline-block">
         <div class="flex items-center space-x-2">
