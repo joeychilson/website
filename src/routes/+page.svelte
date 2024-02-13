@@ -1,9 +1,12 @@
 <script lang="ts">
-	import { Circle, Star } from 'radix-icons-svelte';
 	import * as Card from '$lib/components/ui/card';
 	import * as Tabs from '$lib/components/ui/tabs';
 	import ProjectList from '$lib/components/project-list/project-list.svelte';
 </script>
+
+<svelte:head>
+    <title>Joey Chilson</title>
+</svelte:head>
 
 <Tabs.Root value="projects">
 	<Tabs.List>
