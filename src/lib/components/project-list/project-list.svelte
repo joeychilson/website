@@ -123,7 +123,7 @@
 
 <div class="grid grid-cols-2 gap-4 mt-4">
 	{#each projects as project}
-		<a href={project.url} target="_blank" class="hover:shadow-md">
+		<a href={project.url}>
 			<Card.Root>
 				<Card.Header>
 					<div class="space-y-1">

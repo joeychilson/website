@@ -8,7 +8,7 @@
 
 <div class="grid grid-cols-1 gap-4 mt-4">
 	{#each posts as post}
-		<a href="/posts/{post.slug}" target="_blank" class="hover:shadow-md">
+		<a href="/posts/{post.slug}">
 			<Card.Root>
 				<Card.Header>
 					<div class="space-y-1">
