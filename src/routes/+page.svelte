@@ -1,11 +1,14 @@
 <script lang="ts">
-	import * as Card from '$lib/components/ui/card';
+	import type { PageData } from './$types';
 	import * as Tabs from '$lib/components/ui/tabs';
 	import ProjectList from '$lib/components/project-list/project-list.svelte';
+	import PostList from '$lib/components/post-list/post-list.svelte';
+
+	export let data: PageData;
 </script>
 
 <svelte:head>
-    <title>Joey Chilson</title>
+	<title>Joey Chilson</title>
 </svelte:head>
 
 <Tabs.Root value="projects">
@@ -17,7 +20,6 @@
 		<ProjectList />
 	</Tabs.Content>
 	<Tabs.Content value="posts">
-		<div class="grid grid-cols-1 gap-4 mt-4">
-		</div>
+		<PostList posts={data.posts} />
 	</Tabs.Content>
 </Tabs.Root>
